@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel = "stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="banner">
+        <div class="banner-text">
+          <h1> Etch-a-Sketch </h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="grid"></div>
+      </div>
+
+      <div class = "buttoncontainer">
+        <button class="clearbutton"> Clear </button>
+        <button class="blackbutton"> Black </button>
+        <button class="rainbowbutton"> RGB </button>
+        <button class="eraserbutton"> Eraser </button>
+      </div>
+      <div class="setSize">
+        <input 
+        type="text" 
+        placeholder="size of the grid" 
+        value="16" 
+        onchange="changeSize(this.value)"
+        />
+        <button>Set Size</button>
+      </div>
+      <div class = "errorclass"> 
+        <div class = "error"></div>
+      </div>
+      
+
+    <script src="app.js"> </script>
+</body>
+</html>

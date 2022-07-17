@@ -1,0 +1,47 @@
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 2em 0;
+}
+
+.grid {
+  display: grid;
+  width: 500px;
+  height: 500px;
+}
+
+.box {
+  
+  border: 1px solid rgb(122, 121, 121);
+  background-color: lightgray;
+}
+
+.box:hover { cursor: pointer; }
+.box:hover:not(.filled) { background-color: rgb(151, 179, 195); opacity: 0.3; }
+
+
+
+.buttoncontainer{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.setSize {
+display: flex;
+gap: 5px;
+justify-content: center;
+margin-top: 5px;
+}
+
+.errorclass {
+  display: flex;
+  justify-content: center;
+}
